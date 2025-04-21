@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import joblib
+st.set_page_config(page_title="Health Risk Predictor", layout="wide", initial_sidebar_state="expanded")
 
 # Sidebar to choose prediction model
 st.sidebar.title("Choose Prediction Model")
